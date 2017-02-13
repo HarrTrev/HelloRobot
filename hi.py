@@ -9,5 +9,15 @@ def shimmy():
         left()
         time.sleep(.5)
 
+def twirl():
+    right_rot()
+    time.sleep(1)
+
+
+
+
+
+
 shimmy()
+twirl()
 stop()
